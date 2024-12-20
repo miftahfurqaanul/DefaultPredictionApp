@@ -6,7 +6,7 @@ def encode(var=str, values=str):
     """
     try:
         data = {"GENDER": ("Male","Female"),
-            "MARRIAGE": ("Marriage", "Single", "Other"),
+            "MARRIAGE": ("Married", "Single", "Other"),
             "EDUCATION": ("Graduate School", "University", "High School", "Others")}
 
         if var == "GENDER":
